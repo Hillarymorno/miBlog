@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding-top: 500px;
+    text-align: center;
+}
+.profile{
+    border-radius: 10%;
+}
+#welcome{
+    position:absolute;
+    bottom:0;
+    background:linear-gradient(#a65611,
+    #a35715);
+    display: table;
+    width:100%;
+    height: 100%;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+#titulo{
+    font-size: 50px;
+}
+h2{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+#musica{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:50px;
+}
+.line{
+    height:6px;
+    background-color: blanchedalmond;
+    width: 70px;
+    margin:8px auto;
+}
+.parallax-inner{
+    display:table-cell;
+    vertical-align: middle;
+}
+.menu {
+    position:fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px; 
+    top:0px;
+    z-index:10;
+}
+.links {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: overline;
+}
+a{
+    text-decoration: none;
+}
+#Discografia {
+    text-decoration: underline !important;
+    color:rgb(128, 72, 4) !important;
+}
+#Redessociales{
+text-decoration: underline !important;
+color:rgb(128, 72, 4) !important;
+}
